@@ -24,7 +24,7 @@ mongoose.connect(mongoDB,{useNewUrlParser: true, useUnifiedTopology: true, useCr
       console.error(`Error connecting to the database. \n${err}`);
     });
 
-    app.listen(3000, '0.0.0.0', () => {
+    app.listen(4000, '0.0.0.0', () => {
         console.log("Backend listening at http://localhost:${port}");
       });
       
